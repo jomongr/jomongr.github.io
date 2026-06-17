@@ -160,6 +160,13 @@
     letter-spacing: 0.1em; text-transform: uppercase;
     margin-bottom: 1.5rem;
   }
+  .hero-card-photo {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
+    display: block;
+    border: 1px solid var(--border);
+  }
   .hero-card-row {
     display: flex; justify-content: space-between; align-items: center;
     padding: 0.65rem 0;
@@ -278,6 +285,15 @@
   }
   .project-card:last-child { border-bottom: none; }
   .project-card:hover { background: var(--bg3); }
+  .project-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border);
+    display: block;
+  }
   .project-header {
     display: flex; justify-content: space-between;
     align-items: flex-start; margin-bottom: 1rem;
@@ -432,6 +448,7 @@
     </div>
 
     <div class="hero-card">
+      <img src="profile.jpg" alt="Jomon George Reji" class="hero-card-photo">
       <div class="hero-card-label">// profile.json</div>
       <div class="hero-card-row">
         <span class="hero-card-key">degree</span>
@@ -630,6 +647,7 @@
 
       <!-- Project 1 -->
       <div class="project-card">
+        <img src="robot.jpg" alt="Autonomous Inventory Robot" class="project-image">
         <div class="project-header">
           <span class="project-num">01</span>
           <div class="project-badges">
@@ -658,6 +676,7 @@
 
       <!-- Project 2 -->
       <div class="project-card">
+        <img src="vr.jpg" alt="VR Industrial Safety Training Simulator" class="project-image">
         <div class="project-header">
           <span class="project-num">02</span>
           <div class="project-badges">
@@ -686,6 +705,7 @@
 
       <!-- Project 3 -->
       <div class="project-card">
+        <img src="solar.jpg" alt="Dual-Axis Solar Tracker" class="project-image">
         <div class="project-header">
           <span class="project-num">03</span>
           <div class="project-badges">
@@ -712,6 +732,7 @@
 
       <!-- Project 4 -->
       <div class="project-card">
+        <img src="razor.jpg" alt="Safety Click Razor Redesign" class="project-image">
         <div class="project-header">
           <span class="project-num">04</span>
           <div class="project-badges">
